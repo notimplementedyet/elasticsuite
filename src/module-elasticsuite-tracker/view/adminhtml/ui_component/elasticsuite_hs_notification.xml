@@ -55,7 +55,7 @@
             <state>true</state>
             <options>
                 <option name="modalClass" xsi:type="string">elasticsuite-telemetry-notification</option>
-                <option name="title" xsi:type="string" translate="true">Subscribe to the Elasticsuite newsletter !</option>
+                <option name="title" xsi:type="string" translate="true">Introducing the Elasticsuite newsletter !</option>
                 <option name="autoOpen" xsi:type="boolean">true</option>
                 <option name="type" xsi:type="string">popup</option>
                 <option name="clickableOverlay" xsi:type="boolean">false</option>
@@ -78,7 +78,7 @@
             </settings>
             <container name="hs_container">
                 <htmlContent name="hs" >
-                    <block class="Magento\Framework\View\Element\Template" name="hsform" template="Smile_ElasticsuiteTracker::hs.phtml" />
+                    <block class="Smile\ElasticsuiteTracker\Block\Adminhtml\Hs" name="hsform" template="Smile_ElasticsuiteTracker::hs.phtml" />
                 </htmlContent>
             </container>
         </fieldset>
